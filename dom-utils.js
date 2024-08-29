@@ -16,8 +16,7 @@ const createFlageImageElement = (country) => {
     const imgContainerElement = document.createElement("div");
     const imgElement = document.createElement("img");
     imgElement.src = country.flagUrl;
-    imgElement.width = 160;
-    imgElement.height = 98;
+
 
     
 imgContainerElement.appendChild(imgElement);
